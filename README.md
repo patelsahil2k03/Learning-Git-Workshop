@@ -2,26 +2,26 @@
 Performing various commands in git bash to know how remote sessions work  
 
 
-ls or dir : for show the list of files and folder in current directory
-clear or cls : for clear screen
-cd : for change directory
-cd .. : for go to previous directory
-mkdir : for create new directory or folder
-attrib +h +s +r : to hide any folder
-attrib -h -s -r : to show any folder
-ls -a : for see all hidden files too	
-git init : initializes git reposetory
-touch filename.txt : for creating new file 
-git status : to check weather the change is saved or not
-git add .(to add all file which are unsaved) or git filename.txt(for add specific file): to save changes
-If authority identity is unkown, 
-run : git config --global user.email "abcd@any.com"
-    : git config --global user.name "something"
-git commit -m "Hello" : to pass any message(for records - take picture)
-git branch nameOfBranch : to create new branch(locally)
-git branch : to see branches
-git branch -r : to see all remote branches
-git branch -a : to see all available branches(remotely or locally)
+ls or dir : for show the list of files and folder in current directory <br />
+clear or cls : for clear screen<br />
+cd : for change directory<br />
+cd .. : for go to previous directory<br />
+mkdir : for create new directory or folder<br />
+attrib +h +s +r : to hide any folder<br />
+attrib -h -s -r : to show any folder<br />
+ls -a : for see all hidden files too	<br />
+git init : initializes git reposetory<br />
+touch filename.txt : for creating new file <br />
+git status : to check weather the change is saved or not<br />
+git add .(to add all file which are unsaved) or git filename.txt(for add specific file): to save changes<br />
+If authority identity is unkown, <br />
+run : git config --global user.email "abcd@any.com"<br />
+    : git config --global user.name "something"<br />
+git commit -m "Hello" : to pass any message(for records - take picture)<br />
+git branch nameOfBranch : to create new branch(locally)<br />
+git branch : to see branches<br />
+git branch -r : to see all remote branches<br />
+git branch -a : to see all available branches(remotely or locally)<br />
 git branch -D nameOfBranch : to delete branch 
 git checkout branch_name : to switch from current branch to branch_name
 vi name.txt : to write some content inside new file 
