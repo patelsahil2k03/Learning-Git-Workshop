@@ -22,49 +22,49 @@ git branch nameOfBranch : to create new branch(locally)<br />
 git branch : to see branches<br />
 git branch -r : to see all remote branches<br />
 git branch -a : to see all available branches(remotely or locally)<br />
-git branch -D nameOfBranch : to delete branch 
-git checkout branch_name : to switch from current branch to branch_name
-vi name.txt : to write some content inside new file 
-	(press ctrl(may or not)+i to start writing and to stop writing press esc and then :x enter)
-cat name.txt : to see the details written inside name
-git restore --staged name.txt : to unsave any previously saved file
-git reset IdcopiedFromLog : to clear log history above the copied Id
-git log : to see entire history of the project
-git stash : for not to save the history anywhere but to store at any different place from where we can get it back anytime
-git stash pop : to get that thing back which is saved through stash
-git stash clear : to clean or delete the things saved through stash
-git remote add anyname(origin) URLofRepo(https://github.com/Ankit-34/First.git) : to attach repository URL with our project
-	(In URL, First is the name of repository)
-git remote -v : to see the URLs which are attached with the folder or project
-git remote set-url origin URLOfNewRepo : to change repo from the same account
-git push origin nameOfBranch(master) : to share the changes on URL
-git push --all -f(for force push) : to push changes in repository
-git pull upstream main : to see change in fork
-git fetch --all(for all branches) --prune(deleted are also be fetched) : to fetch(take) all the comments
-git reset --hard upstream/main : to reset the main branch of origin to the main branch of upstream
-git clone URL(origine of particular project) : to download folders related to that project
-git rebase -i IdcopiedFromLog : to merge comments
-git config --global --list : to see the current account for pushing
-git config --global user.name "your_username" : to chnage the global username
-git config --global user.email "your_email_address@example.com" : to change to global email
-git merge Branch_name : It will merge Branch_name with current branch
-git reset --merge : to reset the merging of branch
+git branch -D nameOfBranch : to delete branch <br />
+git checkout branch_name : to switch from current branch to branch_name<br />
+vi name.txt : to write some content inside new file <br />
+	(press ctrl(may or not)+i to start writing and to stop writing press esc and then :x enter)<br />
+cat name.txt : to see the details written inside name<br />
+git restore --staged name.txt : to unsave any previously saved file<br />
+git reset IdcopiedFromLog : to clear log history above the copied Id<br />
+git log : to see entire history of the project<br />
+git stash : for not to save the history anywhere but to store at any different place from where we can get it back anytime<br />
+git stash pop : to get that thing back which is saved through stash<br />
+git stash clear : to clean or delete the things saved through stash<br />
+git remote add anyname(origin) URLofRepo(https://github.com/Ankit-34/First.git) : to attach repository URL with our project<br />
+	(In URL, First is the name of repository)<br />
+git remote -v : to see the URLs which are attached with the folder or project<br />
+git remote set-url origin URLOfNewRepo : to change repo from the same account<br />
+git push origin nameOfBranch(master) : to share the changes on URL<br />
+git push --all -f(for force push) : to push changes in repository<br />
+git pull upstream main : to see change in fork<br />
+git fetch --all(for all branches) --prune(deleted are also be fetched) : to fetch(take) all the comments<br />
+git reset --hard upstream/main : to reset the main branch of origin to the main branch of upstream<br />
+git clone URL(origine of particular project) : to download folders related to that project<br />
+git rebase -i IdcopiedFromLog : to merge comments<br />
+git config --global --list : to see the current account for pushing<br />
+git config --global user.name "your_username" : to chnage the global username<br />
+git config --global user.email "your_email_address@example.com" : to change to global email<br />
+git merge Branch_name : It will merge Branch_name with current branch<br />
+git reset --merge : to reset the merging of branch<br />
 
-Note:
-1.Any folder that starts with our account, the name of that is going to be origin.
-2.We directly can not make change in any others project, we need to fork for it.
-3.From where we have forked the project, that URL is known as UpStream URL.
-4.Commit means to save the change 
+Note:<br />
+1.Any folder that starts with our account, the name of that is going to be origin.<br />
+2.We directly can not make change in any others project, we need to fork for it.<br />
+3.From where we have forked the project, that URL is known as UpStream URL.<br />
+4.Commit means to save the change <br />
 
-To push in new repo,
-First open terminal in the folder which you have to push and run (git init) to initialize
-Then (git add .) for add every file and folder to push in repo or (git add file_name.txt) to add one by one
-Then run (git commit -m "Any message") for commit the changes
-Then run (git branch -M branch_name(default main)) to select branch
-Then run (git remote add origin link_of_the_repo_in_which_we_have_to_push) to connect to the repo remotely
-Then (git push -u origin branch_name) to finally push all changes in repo
+To push in new repo,<br />
+First open terminal in the folder which you have to push and run (git init) to initialize<br />
+Then (git add .) for add every file and folder to push in repo or (git add file_name.txt) to add one by one<br />
+Then run (git commit -m "Any message") for commit the changes<br />
+Then run (git branch -M branch_name(default main)) to select branch<br />
+Then run (git remote add origin link_of_the_repo_in_which_we_have_to_push) to connect to the repo remotely<br />
+Then (git push -u origin branch_name) to finally push all changes in repo<br />
 
-To push changes in existing repo,
-git add .
-git commit -m "Message"
-git push
+To push changes in existing repo,<br />
+git add .<br />
+git commit -m "Message"<br />
+git push<br />
